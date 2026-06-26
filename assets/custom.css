@@ -1,0 +1,22 @@
+/* Custom overrides for the static Paz.os mirror. Loaded on every page after
+   the original stylesheets. Keep site-wide tweaks here. */
+
+/* ---- Language switcher: click/touch open state ----
+   The TranslatePress floater only reveals its language list on :hover (desktop
+   only). assets/lang-switch.js toggles .trp-open so it also works on touch. */
+#trp-floater-ls.trp-open #trp-floater-ls-language-list {
+  display: block !important;
+}
+#trp-floater-ls-current-language {
+  cursor: pointer;
+}
+
+/* ---- Navbar: vertically center the menu within its widget area ----
+   The header menu bar was pinned to the top of its widget, leaving empty space
+   below it (text appeared closer to the top). Center it vertically. */
+.elementor-element-efa0c02 > .elementor-widget-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

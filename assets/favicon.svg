@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Diamond tetractys: ten diamond points in the Pythagorean 1-2-3-4
+       arrangement, on the site's dark tile with its sand-tan accent. -->
+  <rect width="64" height="64" rx="12" fill="#272727"/>
+  <g fill="#decc99">
+    <!-- row 1 (apex) -->
+    <path d="M32 6 L36 12 L32 18 L28 12 Z"/>
+    <!-- row 2 -->
+    <path d="M24 18 L28 24 L24 30 L20 24 Z"/>
+    <path d="M40 18 L44 24 L40 30 L36 24 Z"/>
+    <!-- row 3 -->
+    <path d="M16 30 L20 36 L16 42 L12 36 Z"/>
+    <path d="M32 30 L36 36 L32 42 L28 36 Z"/>
+    <path d="M48 30 L52 36 L48 42 L44 36 Z"/>
+    <!-- row 4 (base) -->
+    <path d="M8 42 L12 48 L8 54 L4 48 Z"/>
+    <path d="M24 42 L28 48 L24 54 L20 48 Z"/>
+    <path d="M40 42 L44 48 L40 54 L36 48 Z"/>
+    <path d="M56 42 L60 48 L56 54 L52 48 Z"/>
+  </g>
+</svg>
